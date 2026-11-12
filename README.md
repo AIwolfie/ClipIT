@@ -17,7 +17,7 @@
 [![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-38bdf8.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![GPU Accelerated](https://img.shields.io/badge/GPU%20Encode-NVENC%20%7C%20AMF%20%7C%20QSV-10b981.svg?style=for-the-badge&logo=nvidia&logoColor=white)](https://ffmpeg.org)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2011%20%2F%2010-06b6d4.svg?style=for-the-badge&logo=windows&logoColor=white)](https://microsoft.com/windows)
-[![Creator](https://img.shields.io/badge/Architect-AIwolfie%20(Mayank%20Malaviya)-f43f5e.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AIwolfie)
+[![Creator](https://img.shields.io/badge/Re--Engineered%20By-AIwolfie%20(Mayank%20Malaviya)-f43f5e.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AIwolfie)
 [![Website](https://img.shields.io/badge/Web-aiwolfie.online-6366f1.svg?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aiwolfie.online)
 
 ---
@@ -27,9 +27,16 @@
 [Quickstart](#-quickstart--installation) •
 [Keyboard Shortcuts](#-keyboard-shortcuts) •
 [Project File Anatomy](#-project-file-anatomy) •
+[Project Provenance & Attribution](#-project-provenance--attribution) •
 [Author & License](#-author--credits)
 
 </div>
+
+---
+
+> [!NOTE]
+> ### 🔍 Reverse Engineering & Origin Notice
+> **Transparency Disclaimer:** I am **not** the original author or architect of this software. **ClipIt** was created by reverse-engineering a compiled standalone desktop binary executable (`.exe`). The application was decompiled, extracted from PyInstaller archives, decoupled from proprietary lockouts, disarmed of artificial time-bomb restrictions, re-engineered for stable Chromium/Edge IPC, and published as a 100% open-source workstation for creators, researchers, and developers. Full credit for the original layout and conceptual workflow belongs to the original software author.
 
 ---
 
@@ -227,18 +234,33 @@ python main.py
 
 ---
 
-## 👨‍💻 Author & Credits
+## ⚖️ Project Provenance & Attribution
 
-<div align="center">
+This open-source project was developed through rigorous software reverse engineering (RE):
 
-Developed with craft by **[AIwolfie (Mayank Malaviya)](https://github.com/AIwolfie)**
-
-🌐 **Official Website:** [aiwolfie.online](https://aiwolfie.online)  
-🐙 **GitHub Profile:** [@AIwolfie](https://github.com/AIwolfie)  
-📦 **Repository:** [AIwolfie/clipit](https://github.com/AIwolfie/clipit)
+1. **Original Software:** Reverse-engineered from a pre-compiled Windows executable distribution (`YIZERGE`).
+2. **Deconstruction & Extraction:** Decomposed the PyInstaller CArchive / PYZ zlib streams, recovered Python 3.13 bytecode objects, disassembled IPC RPC endpoints, and reconstructed DOM/CSS stylesheets.
+3. **Neutralization & Modernization:**
+   - Neutralized the 30-day time-bomb countdown and automatic self-deletion / expiry logic.
+   - Fixed Chromium local file security blocks on `<video>` loading by converting the PyWebView host into direct `file:///` local protocol routing.
+   - Cleaned proprietary server telemetry and updater redirects.
+   - Packaged with bundled hardware-accelerated FFmpeg / FFprobe pipelines.
+4. **Attribution:** The original user interface layout, design concepts, and underlying framing workflow originate from the original application author. This open-source release exists to provide unrestricted access, transparency, auditability, and longevity for the community.
 
 ---
 
-*ClipIt Studio Pro is released under the **MIT License**. Free for individual, agency, and commercial video production.*
+## 👨‍💻 Reverse Engineered & Open Sourced By
+
+<div align="center">
+
+Re-engineered by **[AIwolfie (Mayank Malaviya)](https://github.com/AIwolfie)**
+
+🌐 **Official Website:** [aiwolfie.online](https://aiwolfie.online)  
+🐙 **GitHub Profile:** [@AIwolfie](https://github.com/AIwolfie)  
+📦 **Repository:** [AIwolfie/ClipIT](https://github.com/AIwolfie/ClipIT)
+
+---
+
+*ClipIt Studio Pro is released under the **MIT License**. Free for individual, educational, and open-source video workflow exploration.*
 
 </div>
