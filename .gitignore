@@ -1,0 +1,19 @@
+# Binaries exceeding GitHub's 100MB limit
+ffmpeg.exe
+ffprobe.exe
+
+# Python compilation cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Keep compiled core modules required for standalone execution
+!backend/*.pyc
+
+# Local runtime data
+WebData/
+*.log
+
+# Scratch and OS metadata
+.DS_Store
+Thumbs.db

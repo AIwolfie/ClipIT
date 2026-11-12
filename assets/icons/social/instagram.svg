@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 24 24">
+  <defs>
+    <radialGradient id="ig-rg" cx="30%" cy="107%" r="120%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FFDC80"/>
+      <stop offset="9%" stop-color="#FCAF45"/>
+      <stop offset="18%" stop-color="#F77737"/>
+      <stop offset="28%" stop-color="#F56040"/>
+      <stop offset="36%" stop-color="#FD1D1D"/>
+      <stop offset="50%" stop-color="#E1306C"/>
+      <stop offset="64%" stop-color="#C13584"/>
+      <stop offset="78%" stop-color="#833AB4"/>
+      <stop offset="100%" stop-color="#405DE6"/>
+    </radialGradient>
+  </defs>
+  <rect width="24" height="24" rx="5.5" fill="url(#ig-rg)"/>
+  <rect x="4.5" y="4.5" width="15" height="15" rx="4.5" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+  <circle cx="12" cy="12" r="3.7" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+  <circle cx="16.5" cy="7.5" r="1.15" fill="#FFFFFF"/>
+</svg>
